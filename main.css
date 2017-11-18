@@ -1,0 +1,38 @@
+
+/* font: Raleway - already linked in html, so can use here */
+
+html {
+    font-size: 62.5%; /* 1rem = 10px - use rem */
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #191D32;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.box {
+  width: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+h3 {
+  margin-left: 2%;
+}
+
+.listbox {
+  border: 2px solid #E8D284;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+}
