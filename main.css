@@ -1,6 +1,11 @@
 
 /* font: Raleway - already linked in html, so can use here */
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 html {
     font-size: 62.5%; /* 1rem = 10px - use rem */
 }
@@ -9,7 +14,6 @@ body {
   width: 80%;
   margin: 0 auto;
   background-color: #191D32;
-  height: 100vh;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -25,6 +29,9 @@ body {
 
 h3 {
   margin-left: 2%;
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin-bottom: 0;
 }
 
 .listbox {
@@ -33,6 +40,14 @@ h3 {
   border-radius: 10px;
 }
 
+.listboxLie {
+  border: 2px solid #E8D284;
+  margin: 2%;
+  border-radius: 10px;
+}
+
 p {
   text-align: center;
+  padding: 0 15px;
+  font-size: 1.15em;
 }
